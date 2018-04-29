@@ -57,10 +57,12 @@ set wildmode=longest:full,full
 
 " Syntax highlighting
 syntax on
+syntax enable
 
 " Solarized Dark theme
-colorscheme desert
-#set background=dark //for solarized only
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 
 "When on, splitting a window will put the new window right of the current one.
 set splitright
@@ -74,6 +76,10 @@ set list
 
 " Show trailing whitespaces as dashes
 set listchars=tab:▸\ ,eol:¬,trail:·,extends:»,precedes:«,nbsp:␣
+
+" Uses promptline full preset
+let g:promptline_preset = 'full'
+
 
 """"""""""""""""""""""""""""
 "     Text, tab, indent
