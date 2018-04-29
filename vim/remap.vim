@@ -10,11 +10,11 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 """"""""""""""""""""""""""""
 "    Copy/Paste shortcuts
 """"""""""""""""""""""""""""
-" Yank text to the OS X clipboard
+" Yank text to the clipboard
 noremap <leader>y "*y
 noremap <leader>yy "*Y
 
-" Preserve indentation while pasting text from the OS X clipboard
+" Preserve indentation while pasting text from the clipboard
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
 
 """"""""""""""""""""""""""""

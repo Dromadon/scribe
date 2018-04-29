@@ -1,4 +1,4 @@
-# Dotfiles
+# Scribe
 
 This is used to be my vim configuration.
 Now it also has my tmux, bash and git configurations. Pretty rad.
@@ -9,7 +9,6 @@ to all the right places.
 
 ## Requirements
 - Vim 8
-- The Silver Searcher
 
 ## Contributing
 1. Fork it!
@@ -19,7 +18,8 @@ to all the right places.
 5. Submit a pull request :D
 
 ## Credits
-- Ethan Schoonover - [Solarized](http://ethanschoonover.com/solarized)
+- Sebiwi's [vim configuration](https://github.com/sebiwi/dotfiles), from which I started this one.
+- All the vim plugins and schemes writers -> you guys are awesome!
 
 ## License
 MIT - see LICENSE for more details

@@ -52,12 +52,15 @@ set cursorline
 " Display file names when :e
 set wildmenu
 
+" add autocomplete menu
+set wildmode=longest:full,full
+
 " Syntax highlighting
 syntax on
 
 " Solarized Dark theme
-colorscheme solarized
-set background=dark
+colorscheme desert
+#set background=dark //for solarized only
 
 "When on, splitting a window will put the new window right of the current one.
 set splitright
@@ -70,7 +73,7 @@ set splitbelow
 set list
 
 " Show trailing whitespaces as dashes
-set listchars=tab:▸\ ,trail:·,extends:>,precedes:<,nbsp:+
+set listchars=tab:▸\ ,eol:¬,trail:·,extends:»,precedes:«,nbsp:␣
 
 """"""""""""""""""""""""""""
 "     Text, tab, indent
